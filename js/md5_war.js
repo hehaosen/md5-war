@@ -12,7 +12,7 @@ var player = function (name) {
 
     var name_md5 = hex_md5(name);
     //职业
-    var job = ['设计师','PHP开发','前端开发','JAVA开发','C++开发','产品经理','运营','BOSS','测试','IOS开发','安卓开发','切图仔','python开发','C开发','HR','销售'];
+    var job = ['疯子','脑残儿童','智障','低能儿','傻X','屠夫','碰瓷者','纵火狂','走私者','屠龙者','妻管严','女汉子','娘娘腔','神经病','老司机','缺心眼'];
 
     /**
      * 生成属性数值
@@ -55,7 +55,8 @@ var player = function (name) {
 function log(msg) {
     console.log(msg);
 }
-var player1 = new player('辉腾');
+
+var player1 = new player('王金贝');
 var player2 = new player('漂移');
 var is1P, hurt, dodge;
 
