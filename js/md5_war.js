@@ -56,8 +56,8 @@ function log(msg) {
     console.log(msg);
 }
 
-var player1 = new player('王金贝');
-var player2 = new player('漂移');
+var player1 = new player('玩家一');
+var player2 = new player('玩家二');
 var is1P, hurt, dodge;
 
 //技能
